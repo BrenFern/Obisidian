@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"75d8e29dbaa107f3","type":"text","text":"***Kubernetes*** ⚓","x":-280,"y":-1240,"width":250,"height":60,"color":"5"},
+		{"id":"7463efd70fbdf226","type":"file","file":"Control Plane.md","x":-740,"y":-1040,"width":400,"height":560,"color":"1"},
+		{"id":"9fd3a4dd565c7db9","type":"file","file":"Kubernetes Architecture Concepts 📦.md","x":-1600,"y":-1040,"width":739,"height":1160,"color":"4"},
+		{"id":"2598c4b69667c053","type":"file","file":"Pasted image 20240926162811.png","x":-2273,"y":-1720,"width":1043,"height":624,"color":"3"},
+		{"id":"cf92441aa4d43e56","type":"file","file":"Workers.md","x":-230,"y":-1040,"width":400,"height":560,"color":"3"},
+		{"id":"e005f4e2cb3cca88","type":"file","file":"Kubernetes Objects.md","x":320,"y":-1040,"width":400,"height":400,"color":"2"}
+	],
+	"edges":[
+		{"id":"58fc0438464782bb","fromNode":"2598c4b69667c053","fromSide":"top","toNode":"75d8e29dbaa107f3","toSide":"left","color":"5"},
+		{"id":"0629855f1a9a2193","fromNode":"75d8e29dbaa107f3","fromSide":"left","toNode":"9fd3a4dd565c7db9","toSide":"top","color":"5"},
+		{"id":"74c40d1729281689","fromNode":"2598c4b69667c053","fromSide":"bottom","toNode":"9fd3a4dd565c7db9","toSide":"left","color":"4"},
+		{"id":"266d46b1b3bb9739","fromNode":"75d8e29dbaa107f3","fromSide":"bottom","toNode":"cf92441aa4d43e56","toSide":"top","color":"5"},
+		{"id":"d01d546c79b498b8","fromNode":"75d8e29dbaa107f3","fromSide":"bottom","toNode":"7463efd70fbdf226","toSide":"top","color":"5"}
+	]
+}
